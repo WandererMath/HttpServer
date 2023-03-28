@@ -6,4 +6,4 @@ Handling http requests GET/POST.
 
 Illustrates usage of TLS certificate. 
 
-To run:  node server3.js
+Node.js interpreter required. To run:  node server3.js
