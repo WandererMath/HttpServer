@@ -7,6 +7,10 @@ var mysql = require('mysql');
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
 
+//set the path for html image source assets
+process.env.PWD = process.cwd()
+app.use(express.static(process.env.PWD + '/'));
+
 //connect to SQL database
 var con = mysql.createConnection({
   host: "localhost",
