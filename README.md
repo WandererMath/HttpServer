@@ -5,3 +5,5 @@ Building a simple http/https server by higher level languages which implement pr
 Handling http requests GET/POST.
 
 Illustrates usage of TLS certificate. 
+
+To run:  node server3.js
